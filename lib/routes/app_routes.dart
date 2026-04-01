@@ -1,4 +1,5 @@
 import 'package:get/get.dart';
+import 'package:taskora/features/home/home_binding.dart';
 
 import '../features/auth/login_binding.dart';
 import '../features/auth/login_page.dart';
@@ -19,6 +20,6 @@ class AppPages {
       page: () => LoginPage(),
       binding: LoginBinding(),
     ),
-    GetPage(name: Routes.HOME, page: () => HomePage(), binding: LoginBinding()),
+    GetPage(name: Routes.HOME, page: () => HomePage(), binding: HomeBinding()),
   ];
 }
