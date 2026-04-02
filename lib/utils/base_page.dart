@@ -52,8 +52,6 @@ abstract class BasePage<T extends GetxController> extends GetView<T> {
         body: Stack(
           children: [
             content,
-
-            // GLOBAL LOADING OVERLAY
             if (buildLoading() != null) buildLoading()!,
           ],
         ),

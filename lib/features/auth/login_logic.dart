@@ -18,6 +18,6 @@ class LoginLogic extends GetxController {
     state.isLoading.value = false;
 
     // 🚀 Navigate ke home
-    Get.offAllNamed('/home');
+    Get.offAllNamed('/main');
   }
 }

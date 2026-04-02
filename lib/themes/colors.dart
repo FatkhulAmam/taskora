@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 class AppColors {
   // 🎯 BASE
   static const Color background = Color(0xFFF0FAF7);
+  static const Color bgWhite = Color(0xFFFFFFFF);
   static const Color border = Color(0xFFD0EDE4);
 
   // 📝 TEXT
@@ -17,9 +18,9 @@ class AppColors {
   static const Color primaryDark = Color(0xFF1FA97E);
 
   // 🚨 STATUS
-  static const Color success = Color(0xFF22C55E);
-  static const Color warning = Color(0xFFF59E0B);
-  static const Color danger = Color(0xFFEF4444);
+  static const Color success = Color(0xFF2DD4A0);
+  static const Color warning = Color(0xFFFFB347);
+  static const Color danger = Color(0xFFFF6B6B);
   static const Color info = Color(0xFF3B82F6);
 
   // 🎨 SOFT BACKGROUND (buat card/status badge)

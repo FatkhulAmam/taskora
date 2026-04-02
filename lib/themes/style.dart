@@ -35,7 +35,6 @@ class AppStyle {
 
   static const TextStyle body = TextStyle(
     fontSize: 14,
-    fontWeight: FontWeight.w400,
     color: AppColors.textPrimary,
     fontFamily: fontFamily,
   );
